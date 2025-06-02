@@ -1,1 +1,119 @@
-hii
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elegant Dress Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background: #f8e1e7;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 0;
+      color: #d6336c;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #5e5e5e;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .product-info h3 {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+      color: #d6336c;
+    }
+
+    .product-info p {
+      margin: 0.5rem 0;
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f8e1e7;
+      color: #444;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Elegance Boutique</h1>
+  <p>Explore the latest fashion in dresses for every occasion</p>
+</header>
+
+<section class="products">
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1602810317755-432d5962ab7b" alt="Red Dress">
+    <div class="product-info">
+      <h3>Crimson Classic</h3>
+      <p>$79.99</p>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1602810317648-7c1531bde1d7" alt="Pink Dress">
+    <div class="product-info">
+      <h3>Blush Beauty</h3>
+      <p>$89.99</p>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1588702547923-7093a6c3ba33" alt="Blue Dress">
+    <div class="product-info">
+      <h3>Sapphire Grace</h3>
+      <p>$99.99</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Elegance Boutique. All rights reserved.
+</footer>
+
+</body>
+</html>
